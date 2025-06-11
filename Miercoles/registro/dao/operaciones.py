@@ -13,8 +13,8 @@ class ProductoDao:
     def buscar_por_nombre(self, nombre):
         nombre = nombre.lower()
         return [
-            producto for producto in self.registros
-            if nombre in producto.nombre.
-            lower()
-        ]
+           producto for producto in self.registros
+           if nombre in producto.nombre.lower() 
 
+           ]
+    
